@@ -1,12 +1,12 @@
 class Maker 
-  attr_accessor :name, :mail, :phone, :address, :gender
+  #attr_accessor :name, :mail, :phone, :address, :gender
 
   def display_maker
     makers_file = File.open("contacts.txt", 'r')
       
     makers_file.each do |line|
       maker = line.split(',')
-      
+
       puts "Nombre: #{maker[0]}"
       puts "Email: #{maker[1]}"
       puts "Teléfono: #{maker[2]}"
