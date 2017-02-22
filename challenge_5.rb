@@ -2,7 +2,7 @@ class Maker
   attr_accessor :name, :mail, :phone, :address, :gender
 
   def add_maker
-    makers_file = File.open("agenda.txt", 'a+')
+    makers_file = File.open("contacts.txt", 'a+')
     
     print "Name: "
     @name = gets.chomp
