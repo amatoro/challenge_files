@@ -1,9 +1,3 @@
-#5- Ahora queremos guardar información importante en un archivo plano, crea un programa en Ruby en donde el usuario entregue 
-#los datos de cada contacto: Nombre, Correo, Telefono, Dirección y Genero. Cada contacto debe ser almacenado en una nueva linea del archivo 
-#contacts.txt en donde los datos deben ir separados por comas. Ejemplo:
-# Sebastian Zapata Mardini,sezama08@gmail.com,3012623573,Carrera 76 #53 - 89,male
-
-
 class Maker 
   attr_accessor :name, :mail, :phone, :address, :gender
 
